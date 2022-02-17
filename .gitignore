@@ -12,6 +12,7 @@ gradle.properties
 .project
 .settings/
 target/
+*/target/**
 *.classpath
 *.prefs
 *.jar
