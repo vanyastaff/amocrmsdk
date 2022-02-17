@@ -1,0 +1,751 @@
+16 Feb 2022 16:42:35,856 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 22:42:35 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << X-Request-Id: c9f0d5d6ef0586bcb4ba691c5a66d050
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << X-Runtime-Generated: 0,164
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 16:42:35,857 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 16:42:35,862 main - Connection can be kept alive indefinitely
+16 Feb 2022 16:42:35,870 main - Cookie accepted [session_id="22e11nr0s71g1e451k7m1h1m1m", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 16:42:35,872 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 16:42:35 CST 2027]
+16 Feb 2022 16:42:35,881 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead -960781740","request_id":2135316270}]
+	Time: 1426
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=c9f0d5d6ef0586bcb4ba691c5a66d050, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,164, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 22:42:35 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 22:42:35 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685229,
+                "request_id": "2135316270",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685229"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 16:42:35,882 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 16:42:35,882 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 16:42:35,882 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 16:48:37,075 main - CookieSpec selected: standard
+16 Feb 2022 16:48:37,079 main - Auth cache not set in the context
+16 Feb 2022 16:48:37,080 main - Connection request: [route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 0 of 300; total allocated: 0 of 300]
+16 Feb 2022 16:48:37,133 main - Connection leased: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 16:48:37,135 main - Opening connection {s}->https://dlatestov.amocrm.ru:443
+16 Feb 2022 16:48:37,563 main - Connecting to dlatestov.amocrm.ru/88.212.249.37:443
+16 Feb 2022 16:48:37,563 main - Connecting socket to dlatestov.amocrm.ru/88.212.249.37:443 with timeout 5000
+16 Feb 2022 16:48:37,793 main - Enabled protocols: [TLSv1.2]
+16 Feb 2022 16:48:37,793 main - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16 Feb 2022 16:48:37,794 main - Starting handshake
+16 Feb 2022 16:48:38,377 main - Secure session established
+16 Feb 2022 16:48:38,377 main -  negotiated protocol: TLSv1.2
+16 Feb 2022 16:48:38,377 main -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+16 Feb 2022 16:48:38,378 main -  peer principal: CN=*.amocrm.ru, OU=Domain Control Validated
+16 Feb 2022 16:48:38,378 main -  peer alternative names: [*.amocrm.ru, amocrm.ru]
+16 Feb 2022 16:48:38,379 main -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+16 Feb 2022 16:48:38,385 main - Connection established 192.168.0.25:55430<->88.212.249.37:443
+16 Feb 2022 16:48:38,386 main - http-outgoing-0: set socket timeout to 60000
+16 Feb 2022 16:48:38,386 main - Executing request POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 16:48:38,386 main - Target auth state: UNCHALLENGED
+16 Feb 2022 16:48:38,386 main - Proxy auth state: UNCHALLENGED
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> Content-Type: application/json
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> Content-Length: 57
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> Host: dlatestov.amocrm.ru
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> Connection: Keep-Alive
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> User-Agent: Java VK SDK/1.0
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> "POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1[\r][\n]"
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16 Feb 2022 16:48:38,387 main - http-outgoing-0 >> "Content-Length: 57[\r][\n]"
+16 Feb 2022 16:48:38,388 main - http-outgoing-0 >> "Host: dlatestov.amocrm.ru[\r][\n]"
+16 Feb 2022 16:48:38,388 main - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16 Feb 2022 16:48:38,388 main - http-outgoing-0 >> "User-Agent: Java VK SDK/1.0[\r][\n]"
+16 Feb 2022 16:48:38,388 main - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16 Feb 2022 16:48:38,388 main - http-outgoing-0 >> "[\r][\n]"
+16 Feb 2022 16:48:38,388 main - http-outgoing-0 >> "[{"name":"New Lead -1160486028","request_id":-483097080}]"
+16 Feb 2022 16:48:38,842 main - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16 Feb 2022 16:48:38,842 main - http-outgoing-0 << "Server: nginx[\r][\n]"
+16 Feb 2022 16:48:38,842 main - http-outgoing-0 << "Date: Wed, 16 Feb 2022 22:48:38 GMT[\r][\n]"
+16 Feb 2022 16:48:38,842 main - http-outgoing-0 << "Content-Type: application/hal+json[\r][\n]"
+16 Feb 2022 16:48:38,842 main - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Set-Cookie: session_id=k9vcbft0sj4c1kql58rvpqtaml; path=/; domain=.amocrm.ru; secure; HttpOnly[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 22:48:38 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "X-Request-Id: 6b974e43379c85950c7dbb06c2713e00[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "X-Runtime-Generated: 0,1772[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "X-Frame-Options: sameorigin[\r][\n]"
+16 Feb 2022 16:48:38,843 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "ba[\r][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5]P[0xcb][0xe][0x82]0[0x10][0xbc][0xf3][0x15]d[0xcf]H[0x11]P+[0xbf]b[0xc][0xa9]v[\r][0xc4]"[0xd8][0x16].[0xa4][0xff].[0x14][0x1f]i[0xe8][0xcd][0x9e][0xba][0xb3]3[0x9d][0xe9][0x8c]A8[0x1d](E[0xfd][0xb8]+([0xc2][0xd1][0xce][0x16]S(n[0xe]b[0xd1]J[0xe2][0x8c]B[0xa5]u[0xa7][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "B[0xb8]`[0x1a][0x95]n[0x87][0x98]5[0xed]U6[0xb1][0xec][0x9][0xeb]j2[0xe4]D [0xe3][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "[0xbe]rco&z;bsA[0xce][0x91][0xbb][0xa6][0x8b][0xa6][0x8]O[0x8e][0xab][0x9b][0xc1][0x12][0xeb]Y[0x98][0xd2]=[0xdd][0xa5][0xd9]6Z[0xef]%>[0xfb])Wiy[0xb0][0xc9]i[0x96][0x1c][0xf][0x9]M[0xc0][0xc3][0xf5][0xfc][0xde][0xd9]{[0x9b][0xf8][0xab][0x15][0xf2]I[0xe][0xde]7[0xcd][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "u[0x91][0xdf]t^J[\r][0xcc][0xb]^[0xca][0xbc]4[0xc9][0x1][0x0][0x0][\r][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "0[\r][\n]"
+16 Feb 2022 16:48:38,844 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << HTTP/1.1 200 OK
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Server: nginx
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Date: Wed, 16 Feb 2022 22:48:38 GMT
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Content-Type: application/hal+json
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Transfer-Encoding: chunked
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Connection: keep-alive
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Set-Cookie: session_id=k9vcbft0sj4c1kql58rvpqtaml; path=/; domain=.amocrm.ru; secure; HttpOnly
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 22:48:38 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 16:48:38,848 main - http-outgoing-0 << X-Request-Id: 6b974e43379c85950c7dbb06c2713e00
+16 Feb 2022 16:48:38,849 main - http-outgoing-0 << X-Runtime-Generated: 0,1772
+16 Feb 2022 16:48:38,849 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 16:48:38,849 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 16:48:38,849 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 16:48:38,849 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 16:48:38,849 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 16:48:38,854 main - Connection can be kept alive indefinitely
+16 Feb 2022 16:48:38,859 main - Cookie accepted [session_id="k9vcbft0sj4c1kql58rvpqtaml", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 16:48:38,861 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 16:48:38 CST 2027]
+16 Feb 2022 16:48:38,872 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead -1160486028","request_id":-483097080}]
+	Time: 1800
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=6b974e43379c85950c7dbb06c2713e00, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,1772, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 22:48:38 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 22:48:38 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685231,
+                "request_id": "-483097080",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685231"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 16:48:38,874 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 16:48:38,874 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 16:48:38,874 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 16:51:21,779 main - CookieSpec selected: standard
+16 Feb 2022 16:51:21,783 main - Auth cache not set in the context
+16 Feb 2022 16:51:21,784 main - Connection request: [route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 0 of 300; total allocated: 0 of 300]
+16 Feb 2022 16:51:21,791 main - Connection leased: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 16:51:21,791 main - Opening connection {s}->https://dlatestov.amocrm.ru:443
+16 Feb 2022 16:51:22,346 main - Connecting to dlatestov.amocrm.ru/88.212.249.37:443
+16 Feb 2022 16:51:22,346 main - Connecting socket to dlatestov.amocrm.ru/88.212.249.37:443 with timeout 5000
+16 Feb 2022 16:51:22,572 main - Enabled protocols: [TLSv1.2]
+16 Feb 2022 16:51:22,573 main - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16 Feb 2022 16:51:22,573 main - Starting handshake
+16 Feb 2022 16:51:23,164 main - Secure session established
+16 Feb 2022 16:51:23,164 main -  negotiated protocol: TLSv1.2
+16 Feb 2022 16:51:23,164 main -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+16 Feb 2022 16:51:23,165 main -  peer principal: CN=*.amocrm.ru, OU=Domain Control Validated
+16 Feb 2022 16:51:23,165 main -  peer alternative names: [*.amocrm.ru, amocrm.ru]
+16 Feb 2022 16:51:23,165 main -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+16 Feb 2022 16:51:23,172 main - Connection established 192.168.0.25:56111<->88.212.249.37:443
+16 Feb 2022 16:51:23,172 main - http-outgoing-0: set socket timeout to 60000
+16 Feb 2022 16:51:23,173 main - Executing request POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 16:51:23,173 main - Target auth state: UNCHALLENGED
+16 Feb 2022 16:51:23,173 main - Proxy auth state: UNCHALLENGED
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> Content-Type: application/json
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> Content-Length: 56
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> Host: dlatestov.amocrm.ru
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> Connection: Keep-Alive
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> User-Agent: Java VK SDK/1.0
+16 Feb 2022 16:51:23,174 main - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "Host: dlatestov.amocrm.ru[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "User-Agent: Java VK SDK/1.0[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "[\r][\n]"
+16 Feb 2022 16:51:23,175 main - http-outgoing-0 >> "[{"name":"New Lead -527936029","request_id":1763816397}]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Server: nginx[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Date: Wed, 16 Feb 2022 22:51:23 GMT[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Content-Type: application/hal+json[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Set-Cookie: session_id=dprdpe7js6050qnk8mub5r2miu; path=/; domain=.amocrm.ru; secure; HttpOnly[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 22:51:23 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "X-Request-Id: 9b9eff1b50f49914238fd73f31d5fec8[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "X-Runtime-Generated: 0,1776[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+16 Feb 2022 16:51:23,663 main - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16 Feb 2022 16:51:23,664 main - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16 Feb 2022 16:51:23,664 main - http-outgoing-0 << "X-Frame-Options: sameorigin[\r][\n]"
+16 Feb 2022 16:51:23,664 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 16:51:23,664 main - http-outgoing-0 << "b9[\r][\n]"
+16 Feb 2022 16:51:23,664 main - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5]P[0xcb][0xe][0x83] [0x10][0xbc][0xfb][0x15]f[0xcf]F[0xa2][0xb4]j[0xfd][0x95][0xa6]1[0xb4]l[0xa3])V[0x5][0xf4]b[0xf8][0xf7]*[0xf6][0x11]"[0xb7]rbgg[0x98]a[0xe6] \[0xe]T[0xa2]y>[0x14][0x94][0xe1]lg[0x8b])[0x14]w[0x7][0xb1]h-qE[0xa1][0xd6][0xba]W%!\0[0x8d]JwS[0xcc][0xda][0xee]&[0xdb]X[0x8e][0x84][0xf5][\r][0x99][0xe]D [0xe3][\n]"
+16 Feb 2022 16:51:23,664 main - http-outgoing-0 << "[0xbe]rco&z;b{E[0xce][0x91][0xbb][0xa6][0x9b][0xa6][0xc][0xcf][0x8e][0xab][0x9b][0xc1][0x12][0x9b]U[0x98][0x16]YqL)[0x8d][0xf6]{[0x89][0xc3][0xb8][0xe4][0xaa],[0xf][0x92]<[0xa3]E[0x92][0xd1]S[0xe][0x1e][0xae][0xe7][0xf7][0xce][0xde][0xdb][0xc4]_[0xad][0x90]Or[0xf0][0xbe]iv[0xa8][0x8b][0xfc][0xa6][0xcb]Vj`^[0xf4][\r][0xfc][0xc2][0xc9][0x1][0x0][0x0][\r][\n]"
+16 Feb 2022 16:51:23,665 main - http-outgoing-0 << "0[\r][\n]"
+16 Feb 2022 16:51:23,665 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 16:51:23,670 main - http-outgoing-0 << HTTP/1.1 200 OK
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Server: nginx
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Date: Wed, 16 Feb 2022 22:51:23 GMT
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Content-Type: application/hal+json
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Transfer-Encoding: chunked
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Connection: keep-alive
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Set-Cookie: session_id=dprdpe7js6050qnk8mub5r2miu; path=/; domain=.amocrm.ru; secure; HttpOnly
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 22:51:23 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << X-Request-Id: 9b9eff1b50f49914238fd73f31d5fec8
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << X-Runtime-Generated: 0,1776
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 16:51:23,672 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 16:51:23,681 main - Connection can be kept alive indefinitely
+16 Feb 2022 16:51:23,685 main - Cookie accepted [session_id="dprdpe7js6050qnk8mub5r2miu", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 16:51:23,687 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 16:51:23 CST 2027]
+16 Feb 2022 16:51:23,698 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead -527936029","request_id":1763816397}]
+	Time: 1921
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=9b9eff1b50f49914238fd73f31d5fec8, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,1776, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 22:51:23 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 22:51:23 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685233,
+                "request_id": "1763816397",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685233"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 16:51:23,699 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 16:51:23,700 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 16:51:23,700 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:03:28,793 main - CookieSpec selected: standard
+16 Feb 2022 17:03:28,800 main - Auth cache not set in the context
+16 Feb 2022 17:03:28,801 main - Connection request: [route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 0 of 300; total allocated: 0 of 300]
+16 Feb 2022 17:03:28,809 main - Connection leased: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:03:28,810 main - Opening connection {s}->https://dlatestov.amocrm.ru:443
+16 Feb 2022 17:03:29,798 main - Connecting to dlatestov.amocrm.ru/88.212.249.37:443
+16 Feb 2022 17:03:29,798 main - Connecting socket to dlatestov.amocrm.ru/88.212.249.37:443 with timeout 5000
+16 Feb 2022 17:03:30,130 main - Enabled protocols: [TLSv1.2]
+16 Feb 2022 17:03:30,131 main - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16 Feb 2022 17:03:30,131 main - Starting handshake
+16 Feb 2022 17:03:30,830 main - Secure session established
+16 Feb 2022 17:03:30,832 main -  negotiated protocol: TLSv1.2
+16 Feb 2022 17:03:30,832 main -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+16 Feb 2022 17:03:30,834 main -  peer principal: CN=*.amocrm.ru, OU=Domain Control Validated
+16 Feb 2022 17:03:30,834 main -  peer alternative names: [*.amocrm.ru, amocrm.ru]
+16 Feb 2022 17:03:30,834 main -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+16 Feb 2022 17:03:30,845 main - Connection established 192.168.0.25:59585<->88.212.249.37:443
+16 Feb 2022 17:03:30,845 main - http-outgoing-0: set socket timeout to 60000
+16 Feb 2022 17:03:30,845 main - Executing request POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:03:30,845 main - Target auth state: UNCHALLENGED
+16 Feb 2022 17:03:30,846 main - Proxy auth state: UNCHALLENGED
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> Content-Type: application/json
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> Content-Length: 57
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> Host: dlatestov.amocrm.ru
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> Connection: Keep-Alive
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> User-Agent: Java VK SDK/1.0
+16 Feb 2022 17:03:30,847 main - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16 Feb 2022 17:03:30,853 main - http-outgoing-0 >> "POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1[\r][\n]"
+16 Feb 2022 17:03:30,853 main - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16 Feb 2022 17:03:30,853 main - http-outgoing-0 >> "Content-Length: 57[\r][\n]"
+16 Feb 2022 17:03:30,853 main - http-outgoing-0 >> "Host: dlatestov.amocrm.ru[\r][\n]"
+16 Feb 2022 17:03:30,853 main - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16 Feb 2022 17:03:30,853 main - http-outgoing-0 >> "User-Agent: Java VK SDK/1.0[\r][\n]"
+16 Feb 2022 17:03:30,854 main - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16 Feb 2022 17:03:30,854 main - http-outgoing-0 >> "[\r][\n]"
+16 Feb 2022 17:03:30,854 main - http-outgoing-0 >> "[{"name":"New Lead -1003527992","request_id":-443986140}]"
+16 Feb 2022 17:03:31,246 main - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Server: nginx[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Date: Wed, 16 Feb 2022 23:03:31 GMT[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Content-Type: application/hal+json[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Set-Cookie: session_id=1gfsed0mon0mbde3tlaigbblur; path=/; domain=.amocrm.ru; secure; HttpOnly[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:03:31 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "X-Request-Id: dc7da8a9be057821d3d507e3ca1a0cc3[\r][\n]"
+16 Feb 2022 17:03:31,248 main - http-outgoing-0 << "X-Runtime-Generated: 0,1463[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "X-Frame-Options: sameorigin[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "ba[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5]P[0xcb][0xe][0x82]0[0x10][0xbc][0xf3][0x15]d[0xcf]H[0x15]*"[0xbf]b[0xc][0xa9]v[\r][0xc4]"[0xd8][0x16].[0xa4][0xff].[0x14][0x1f]i[0xe8][0xcd][0x9e][0xba][0xb3]3[0x9d][0xe9][0x8c]A8[0x1d](E[0xfd][0xb8]+([0xc2][0xd1][0xce][0x16]S(n[0xe]b[0xd1]J[0xe2][0x8c]B[0xa5]u[0xa7][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "B[0xb8]`[0x1a][0x95]n[0x87][0x98]5[0xed]U6[0xb1][0xec][0x9][0xeb]j2P"[0x90]q[0x5]_[0xb9][0xb1]7[0x13][0xbd][0x1d][0xb1][0xb9] [0xe7][0xc8]][0xd3]ES[0x84]'[0xc7][0xd5][0xcd]`[0x89][0xf5],L[0xf2],[0xdf]'[0xe9]!Z[0xef]%>[0xfb])Wiy[0xb0][0xa1]4=[0xe6][0xd9][0x8e]n[0xc1][0xc3][0xf5][0xfc][0xde][0xd9]{[0x9b][0xf8][0xab][0x15][0xf2]I[0xe][0xde]7[0xcd][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "u[0x91][0xdf]t^J[\r][0xcc][0xb][0xb0]9XV[0xc9][0x1][0x0][0x0][\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "0[\r][\n]"
+16 Feb 2022 17:03:31,249 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << HTTP/1.1 200 OK
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Server: nginx
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Date: Wed, 16 Feb 2022 23:03:31 GMT
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Content-Type: application/hal+json
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Transfer-Encoding: chunked
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Connection: keep-alive
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Set-Cookie: session_id=1gfsed0mon0mbde3tlaigbblur; path=/; domain=.amocrm.ru; secure; HttpOnly
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 17:03:31,260 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:03:31 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << X-Request-Id: dc7da8a9be057821d3d507e3ca1a0cc3
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << X-Runtime-Generated: 0,1463
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 17:03:31,263 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 17:03:31,272 main - Connection can be kept alive indefinitely
+16 Feb 2022 17:03:31,278 main - Cookie accepted [session_id="1gfsed0mon0mbde3tlaigbblur", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 17:03:31,282 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 17:03:31 CST 2027]
+16 Feb 2022 17:03:31,302 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead -1003527992","request_id":-443986140}]
+	Time: 2509
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=dc7da8a9be057821d3d507e3ca1a0cc3, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,1463, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 23:03:31 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 23:03:31 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685237,
+                "request_id": "-443986140",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685237"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 17:03:31,315 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 17:03:31,315 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 17:03:31,315 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:10:55,271 main - CookieSpec selected: standard
+16 Feb 2022 17:10:55,297 main - Auth cache not set in the context
+16 Feb 2022 17:10:55,301 main - Connection request: [route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 0 of 300; total allocated: 0 of 300]
+16 Feb 2022 17:10:55,346 main - Connection leased: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:10:55,350 main - Opening connection {s}->https://dlatestov.amocrm.ru:443
+16 Feb 2022 17:10:55,508 main - Connecting to dlatestov.amocrm.ru/88.212.249.37:443
+16 Feb 2022 17:10:55,508 main - Connecting socket to dlatestov.amocrm.ru/88.212.249.37:443 with timeout 5000
+16 Feb 2022 17:10:55,851 main - Enabled protocols: [TLSv1.2]
+16 Feb 2022 17:10:55,851 main - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16 Feb 2022 17:10:55,851 main - Starting handshake
+16 Feb 2022 17:10:57,290 main - Secure session established
+16 Feb 2022 17:10:57,290 main -  negotiated protocol: TLSv1.2
+16 Feb 2022 17:10:57,291 main -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+16 Feb 2022 17:10:57,291 main -  peer principal: CN=*.amocrm.ru, OU=Domain Control Validated
+16 Feb 2022 17:10:57,291 main -  peer alternative names: [*.amocrm.ru, amocrm.ru]
+16 Feb 2022 17:10:57,292 main -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+16 Feb 2022 17:10:57,305 main - Connection established 192.168.0.25:61430<->88.212.249.37:443
+16 Feb 2022 17:10:57,305 main - http-outgoing-0: set socket timeout to 60000
+16 Feb 2022 17:10:57,305 main - Executing request POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:10:57,305 main - Target auth state: UNCHALLENGED
+16 Feb 2022 17:10:57,307 main - Proxy auth state: UNCHALLENGED
+16 Feb 2022 17:10:57,310 main - http-outgoing-0 >> POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:10:57,311 main - http-outgoing-0 >> Content-Type: application/json
+16 Feb 2022 17:10:57,311 main - http-outgoing-0 >> Content-Length: 58
+16 Feb 2022 17:10:57,311 main - http-outgoing-0 >> Host: dlatestov.amocrm.ru
+16 Feb 2022 17:10:57,311 main - http-outgoing-0 >> Connection: Keep-Alive
+16 Feb 2022 17:10:57,311 main - http-outgoing-0 >> User-Agent: Java VK SDK/1.0
+16 Feb 2022 17:10:57,311 main - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16 Feb 2022 17:10:57,312 main - http-outgoing-0 >> "POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1[\r][\n]"
+16 Feb 2022 17:10:57,312 main - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16 Feb 2022 17:10:57,312 main - http-outgoing-0 >> "Content-Length: 58[\r][\n]"
+16 Feb 2022 17:10:57,312 main - http-outgoing-0 >> "Host: dlatestov.amocrm.ru[\r][\n]"
+16 Feb 2022 17:10:57,312 main - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16 Feb 2022 17:10:57,312 main - http-outgoing-0 >> "User-Agent: Java VK SDK/1.0[\r][\n]"
+16 Feb 2022 17:10:57,313 main - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16 Feb 2022 17:10:57,313 main - http-outgoing-0 >> "[\r][\n]"
+16 Feb 2022 17:10:57,313 main - http-outgoing-0 >> "[{"name":"New Lead -1678052479","request_id":-1028977959}]"
+16 Feb 2022 17:10:58,100 main - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16 Feb 2022 17:10:58,101 main - http-outgoing-0 << "Server: nginx[\r][\n]"
+16 Feb 2022 17:10:58,102 main - http-outgoing-0 << "Date: Wed, 16 Feb 2022 23:10:58 GMT[\r][\n]"
+16 Feb 2022 17:10:58,103 main - http-outgoing-0 << "Content-Type: application/hal+json[\r][\n]"
+16 Feb 2022 17:10:58,103 main - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16 Feb 2022 17:10:58,104 main - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16 Feb 2022 17:10:58,104 main - http-outgoing-0 << "Set-Cookie: session_id=qggscii0m52b48rvs85ldt6tjm; path=/; domain=.amocrm.ru; secure; HttpOnly[\r][\n]"
+16 Feb 2022 17:10:58,105 main - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+16 Feb 2022 17:10:58,105 main - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+16 Feb 2022 17:10:58,105 main - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16 Feb 2022 17:10:58,106 main - http-outgoing-0 << "Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:10:57 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru[\r][\n]"
+16 Feb 2022 17:10:58,106 main - http-outgoing-0 << "X-Request-Id: 1cbd3e83066402cea94d091a397d3668[\r][\n]"
+16 Feb 2022 17:10:58,107 main - http-outgoing-0 << "X-Runtime-Generated: 0,4819[\r][\n]"
+16 Feb 2022 17:10:58,107 main - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+16 Feb 2022 17:10:58,108 main - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+16 Feb 2022 17:10:58,108 main - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16 Feb 2022 17:10:58,108 main - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16 Feb 2022 17:10:58,109 main - http-outgoing-0 << "X-Frame-Options: sameorigin[\r][\n]"
+16 Feb 2022 17:10:58,109 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:10:58,109 main - http-outgoing-0 << "bb[\r][\n]"
+16 Feb 2022 17:10:58,110 main - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5]P[0xcb][0xe][0x83] [0x10][0xbc][0xfb][0x15]f[0xcf]V[0xaa][0xd1][0xfa][0xf8][0x95][0xa6]1[0xb4]l[0xa3])>[\n]"
+16 Feb 2022 17:10:58,112 main - http-outgoing-0 << "[0xe8][0xc5][0xf0][0xef]U[0xec]#Dn[0xe5][0xc4][0xce][0xce]0[0xc3][0xcc][0x9e][0xbf][0x1c][0xa8]x[0xd3]=$[0x94][0xfe]lf[0x83]I[0xe4]w[0xb]1h-pE[0xa1]Vj[0x90]%![0x8c]S[0x85]R[0xf5]SH[0xdb][0xfe]&[0xda]P[0x8c][0x84][0xe][\r][0x99][0x12][0xc2][0x91]2[0x9]_[0xb9]67[0x1d][0xbc][0x1d][0xb1][0xbd]"c[0xc8]l[0xd3]MS[0xfa]g[0xcb][0xd5][0xce]`[0x88][0xcd]*[0x8c][0xf3]S[0x9e][0xc6]I[0x14][0xec][0xf7][0x2][0x9f][0xe3][0x92][0xab]2<8D[0xc7]8/[0xb2][0xac]H[0xb]p[0x90][0x1d][0xdf][0xb7][0xf6][0xce]*[0xfe][0xaa][0x85]|[0xa2][0x83][0xf3]M[0xbd]Cm[0xe4]7][0xb6]V=[0xfd][0x2] [0x95][0xe][0xef][0xca][0x1][0x0][0x0][\r][\n]"
+16 Feb 2022 17:10:58,112 main - http-outgoing-0 << "0[\r][\n]"
+16 Feb 2022 17:10:58,113 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:10:58,131 main - http-outgoing-0 << HTTP/1.1 200 OK
+16 Feb 2022 17:10:58,132 main - http-outgoing-0 << Server: nginx
+16 Feb 2022 17:10:58,132 main - http-outgoing-0 << Date: Wed, 16 Feb 2022 23:10:58 GMT
+16 Feb 2022 17:10:58,132 main - http-outgoing-0 << Content-Type: application/hal+json
+16 Feb 2022 17:10:58,132 main - http-outgoing-0 << Transfer-Encoding: chunked
+16 Feb 2022 17:10:58,132 main - http-outgoing-0 << Connection: keep-alive
+16 Feb 2022 17:10:58,132 main - http-outgoing-0 << Set-Cookie: session_id=qggscii0m52b48rvs85ldt6tjm; path=/; domain=.amocrm.ru; secure; HttpOnly
+16 Feb 2022 17:10:58,133 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 17:10:58,133 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 17:10:58,133 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 17:10:58,133 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:10:57 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 17:10:58,133 main - http-outgoing-0 << X-Request-Id: 1cbd3e83066402cea94d091a397d3668
+16 Feb 2022 17:10:58,134 main - http-outgoing-0 << X-Runtime-Generated: 0,4819
+16 Feb 2022 17:10:58,134 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 17:10:58,134 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 17:10:58,134 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 17:10:58,134 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 17:10:58,134 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 17:10:58,157 main - Connection can be kept alive indefinitely
+16 Feb 2022 17:10:58,172 main - Cookie accepted [session_id="qggscii0m52b48rvs85ldt6tjm", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 17:10:58,182 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 17:10:58 CST 2027]
+16 Feb 2022 17:10:58,200 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead -1678052479","request_id":-1028977959}]
+	Time: 2965
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=1cbd3e83066402cea94d091a397d3668, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,4819, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 23:10:58 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 23:10:57 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685241,
+                "request_id": "-1028977959",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685241"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 17:10:58,201 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 17:10:58,202 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 17:10:58,202 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:11:57,958 main - CookieSpec selected: standard
+16 Feb 2022 17:11:57,962 main - Auth cache not set in the context
+16 Feb 2022 17:11:57,963 main - Connection request: [route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 0 of 300; total allocated: 0 of 300]
+16 Feb 2022 17:11:57,971 main - Connection leased: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:11:57,972 main - Opening connection {s}->https://dlatestov.amocrm.ru:443
+16 Feb 2022 17:11:57,976 main - Connecting to dlatestov.amocrm.ru/88.212.250.100:443
+16 Feb 2022 17:11:57,977 main - Connecting socket to dlatestov.amocrm.ru/88.212.250.100:443 with timeout 5000
+16 Feb 2022 17:11:58,166 main - Enabled protocols: [TLSv1.2]
+16 Feb 2022 17:11:58,166 main - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16 Feb 2022 17:11:58,166 main - Starting handshake
+16 Feb 2022 17:11:58,820 main - Secure session established
+16 Feb 2022 17:11:58,820 main -  negotiated protocol: TLSv1.2
+16 Feb 2022 17:11:58,820 main -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+16 Feb 2022 17:11:58,820 main -  peer principal: CN=*.amocrm.ru, OU=Domain Control Validated
+16 Feb 2022 17:11:58,820 main -  peer alternative names: [*.amocrm.ru, amocrm.ru]
+16 Feb 2022 17:11:58,820 main -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+16 Feb 2022 17:11:58,825 main - Connection established 192.168.0.25:61694<->88.212.250.100:443
+16 Feb 2022 17:11:58,826 main - http-outgoing-0: set socket timeout to 60000
+16 Feb 2022 17:11:58,826 main - Executing request POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:11:58,826 main - Target auth state: UNCHALLENGED
+16 Feb 2022 17:11:58,826 main - Proxy auth state: UNCHALLENGED
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> Content-Type: application/json
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> Content-Length: 56
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> Host: dlatestov.amocrm.ru
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> Connection: Keep-Alive
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> User-Agent: Java VK SDK/1.0
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "Host: dlatestov.amocrm.ru[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "User-Agent: Java VK SDK/1.0[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "[\r][\n]"
+16 Feb 2022 17:11:58,827 main - http-outgoing-0 >> "[{"name":"New Lead -640304013","request_id":2072614053}]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Server: nginx[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Date: Wed, 16 Feb 2022 23:11:59 GMT[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Content-Type: application/hal+json[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Set-Cookie: session_id=ke5ug4q443pkv0q71v55l00vpo; path=/; domain=.amocrm.ru; secure; HttpOnly[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+16 Feb 2022 17:11:59,337 main - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:11:59 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "X-Request-Id: 3c99309cf599b1113263e6a1fb9ecab2[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "X-Runtime-Generated: 0,1597[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "X-Frame-Options: sameorigin[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:11:59,338 main - http-outgoing-0 << "ba[\r][\n]"
+16 Feb 2022 17:11:59,339 main - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5]P[0xcb][0xe][0x83] [0x10][0xbc][0xfb][0x15]f[0xcf]F,>j[0xfc][0x95][0xa6]1[0xb4]l[0xa3])V[0xb][0xe8][0xc5][0xf0][0xef]U[0xec]#Dn[0xe5][0xc4][0xce][0xce]0[0xc3][0xcc]A[0xb8][0x1c][0xa8]E[0xfb][0xb8]+[0xa8][0xc2][0xd9][0xce][0x16]S(n[0xe]b[0xd1]F[0xe2][0x8a]B[0xa3][0xf5][0xa0]*B[0xb8]`[0x1a][0x95][0xee][0xa7][0x98]u[0xfd]Uv[0xb1][0x1c][0x9][0x1b]Z2eD [0xe3][\n]"
+16 Feb 2022 17:11:59,339 main - http-outgoing-0 << "[0xbe]rco&z;bwA[0xce][0x91][0xbb][0xa6][0x9b][0xa6][\n]"
+16 Feb 2022 17:11:59,339 main - http-outgoing-0 << "O[0x8e][0xab][0x9b][0xc1][0x12][0xdb]UH[0xcb][0xa2][0xcc]i[0x96]F[0xfb][0xbd][0xc4][0xe7][0xb8][0xe4][0xaa]-[0xf]hr[0xa4][0xc5]!K[0xf2][0x14]<\[0xcf][0xef][0x9d][0xbd][0xb7][0x89][0xbf]Z![0x9f][0xe4][0xe0]}[0xd3][0xec]P[0x17][0xf9]M[0xe7][0xad][0xd4][0xc0][0xbc][0x0]7[0xf0]_[0xd6][0xc9][0x1][0x0][0x0][\r][\n]"
+16 Feb 2022 17:11:59,339 main - http-outgoing-0 << "0[\r][\n]"
+16 Feb 2022 17:11:59,339 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << HTTP/1.1 200 OK
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Server: nginx
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Date: Wed, 16 Feb 2022 23:11:59 GMT
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Content-Type: application/hal+json
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Transfer-Encoding: chunked
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Connection: keep-alive
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Set-Cookie: session_id=ke5ug4q443pkv0q71v55l00vpo; path=/; domain=.amocrm.ru; secure; HttpOnly
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 17:11:59,344 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:11:59 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << X-Request-Id: 3c99309cf599b1113263e6a1fb9ecab2
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << X-Runtime-Generated: 0,1597
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 17:11:59,345 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 17:11:59,348 main - Connection can be kept alive indefinitely
+16 Feb 2022 17:11:59,352 main - Cookie accepted [session_id="ke5ug4q443pkv0q71v55l00vpo", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 17:11:59,353 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 17:11:59 CST 2027]
+16 Feb 2022 17:11:59,363 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead -640304013","request_id":2072614053}]
+	Time: 1420
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=3c99309cf599b1113263e6a1fb9ecab2, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,1597, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 23:11:59 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 23:11:59 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685243,
+                "request_id": "2072614053",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685243"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 17:11:59,365 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 17:11:59,365 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 17:11:59,366 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:13:55,261 main - CookieSpec selected: standard
+16 Feb 2022 17:17:00,830 main - CookieSpec selected: standard
+16 Feb 2022 17:17:00,883 main - Auth cache not set in the context
+16 Feb 2022 17:17:00,896 main - Connection request: [route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 0 of 300; total allocated: 0 of 300]
+16 Feb 2022 17:17:00,924 main - Connection leased: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 0; route allocated: 1 of 300; total allocated: 1 of 300]
+16 Feb 2022 17:17:00,927 main - Opening connection {s}->https://dlatestov.amocrm.ru:443
+16 Feb 2022 17:17:01,500 main - Connecting to dlatestov.amocrm.ru/88.212.250.100:443
+16 Feb 2022 17:17:01,504 main - Connecting socket to dlatestov.amocrm.ru/88.212.250.100:443 with timeout 5000
+16 Feb 2022 17:17:01,894 main - Enabled protocols: [TLSv1.2]
+16 Feb 2022 17:17:01,895 main - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16 Feb 2022 17:17:01,895 main - Starting handshake
+16 Feb 2022 17:17:02,602 main - Secure session established
+16 Feb 2022 17:17:02,603 main -  negotiated protocol: TLSv1.2
+16 Feb 2022 17:17:02,603 main -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+16 Feb 2022 17:17:02,606 main -  peer principal: CN=*.amocrm.ru, OU=Domain Control Validated
+16 Feb 2022 17:17:02,606 main -  peer alternative names: [*.amocrm.ru, amocrm.ru]
+16 Feb 2022 17:17:02,607 main -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+16 Feb 2022 17:17:02,615 main - Connection established 192.168.0.25:62953<->88.212.250.100:443
+16 Feb 2022 17:17:02,616 main - http-outgoing-0: set socket timeout to 60000
+16 Feb 2022 17:17:02,618 main - Executing request POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:17:02,621 main - Target auth state: UNCHALLENGED
+16 Feb 2022 17:17:02,621 main - Proxy auth state: UNCHALLENGED
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> Content-Type: application/json
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> Content-Length: 56
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> Host: dlatestov.amocrm.ru
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> Connection: Keep-Alive
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> User-Agent: Java VK SDK/1.0
+16 Feb 2022 17:17:02,626 main - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+16 Feb 2022 17:17:02,627 main - http-outgoing-0 >> "POST /api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru HTTP/1.1[\r][\n]"
+16 Feb 2022 17:17:02,627 main - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+16 Feb 2022 17:17:02,627 main - http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+16 Feb 2022 17:17:02,628 main - http-outgoing-0 >> "Host: dlatestov.amocrm.ru[\r][\n]"
+16 Feb 2022 17:17:02,628 main - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+16 Feb 2022 17:17:02,628 main - http-outgoing-0 >> "User-Agent: Java VK SDK/1.0[\r][\n]"
+16 Feb 2022 17:17:02,628 main - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16 Feb 2022 17:17:02,628 main - http-outgoing-0 >> "[\r][\n]"
+16 Feb 2022 17:17:02,629 main - http-outgoing-0 >> "[{"name":"New Lead 1621439294","request_id":1583962204}]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Server: nginx[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Date: Wed, 16 Feb 2022 23:17:03 GMT[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Content-Type: application/hal+json[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Set-Cookie: session_id=o91j117se3396t4sejon4jiuqr; path=/; domain=.amocrm.ru; secure; HttpOnly[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+16 Feb 2022 17:17:03,031 main - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:17:02 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "X-Request-Id: bdc43321a908c1fb0286a8cfcc4b3831[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "X-Runtime-Generated: 0,1525[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "X-Frame-Options: sameorigin[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "ba[\r][\n]"
+16 Feb 2022 17:17:03,032 main - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5]P[0xcb][0xe][0x83] [0x10][0xbc][0xfb][0x15]f[0xcf]FZ[0xaa][0xd6][0xfa]+Mch[0xd9]FS|[0x14][0xd0][0x8b][0xe1][0xdf][0xab][0xd8]G[0x88][0xdc][0xca][0x89][0x9d][0x9d]a[0x86][0x99][0x82]p>P[0x8a][0xba]}(([0xc2][0xc9][0xce][0x16]S([0xee][0xe]b[0xd1]J[0xe2][0x82]B[0xa5]u[0xaf][\n]"
+16 Feb 2022 17:17:03,033 main - http-outgoing-0 << "B[0xb8]`[0x1a][0x95][0xee][0xc6][0x98]5[0xdd]M6[0xb1][0x1c][0x8][0xeb]k2&D [0xe3][\n]"
+16 Feb 2022 17:17:03,033 main - http-outgoing-0 << "[0xbe]rco&z;bsE[0xce][0x91][0xbb][0xa6][0xab][0xa6][0x8][0xcf][0x8e][0xab][0x9b][0xc1][0x12][0xeb]EH[0xf3],Oir[0x8c][0xb6]{[0x89][0xcf]a[0xce]UZ[0x1e][0xec][0xd3][0xfc]p[0xca]([0xdd]%[0xe0][0xe1]z~[0xef][0xec][0xbd]M[0xfc][0xd5][\n]"
+16 Feb 2022 17:17:03,033 main - http-outgoing-0 << "[0xf9]$[0x7][0xef][0x9b]f[0x83][0xba][0xc8]o[0xba][0xac][0xa5][0x6][0xe6][0x5]A[0x9e][0xe1][0x84][0xc9][0x1][0x0][0x0][\r][\n]"
+16 Feb 2022 17:17:03,033 main - http-outgoing-0 << "0[\r][\n]"
+16 Feb 2022 17:17:03,033 main - http-outgoing-0 << "[\r][\n]"
+16 Feb 2022 17:17:03,040 main - http-outgoing-0 << HTTP/1.1 200 OK
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Server: nginx
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Date: Wed, 16 Feb 2022 23:17:03 GMT
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Content-Type: application/hal+json
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Transfer-Encoding: chunked
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Connection: keep-alive
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Set-Cookie: session_id=o91j117se3396t4sejon4jiuqr; path=/; domain=.amocrm.ru; secure; HttpOnly
+16 Feb 2022 17:17:03,041 main - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << Pragma: no-cache
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << Set-Cookie: user_lang=ru; expires=Tue, 16-Feb-2027 23:17:02 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << X-Request-Id: bdc43321a908c1fb0286a8cfcc4b3831
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << X-Runtime-Generated: 0,1525
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << Content-Encoding: gzip
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << X-Content-Type-Options: nosniff
+16 Feb 2022 17:17:03,042 main - http-outgoing-0 << X-Frame-Options: sameorigin
+16 Feb 2022 17:17:03,058 main - Connection can be kept alive indefinitely
+16 Feb 2022 17:17:03,070 main - Cookie accepted [session_id="o91j117se3396t4sejon4jiuqr", version:0, domain:amocrm.ru, path:/, expiry:null]
+16 Feb 2022 17:17:03,073 main - Cookie accepted [user_lang="ru", version:0, domain:amocrm.ru, path:/, expiry:Tue Feb 16 17:17:03 CST 2027]
+16 Feb 2022 17:17:03,098 main - 
+Request:
+	Headers: {Content-Type=application/json}
+	Method: POST
+	URI: https://dlatestov.amocrm.ru//api/v4/leads?USER_HASH=97c048ec6b527dcfae4b072925dea36c26af4091&USER_LOGIN=v.john%40f5.com.ru
+	Payload: [{"name":"New Lead 1621439294","request_id":1583962204}]
+	Time: 2271
+Response:
+	Status: HTTP/1.1 200 OK
+	Headers: {Transfer-Encoding=chunked, Server=nginx, X-Request-Id=bdc43321a908c1fb0286a8cfcc4b3831, X-Content-Type-Options=nosniff, X-Runtime-Generated=0,1525, Connection=keep-alive, Pragma=no-cache, Date=Wed, 16 Feb 2022 23:17:03 GMT, X-Frame-Options=sameorigin, Strict-Transport-Security=max-age=31536000, Cache-Control=no-store, no-cache, must-revalidate, Set-Cookie=user_lang=ru; expires=Tue, 16-Feb-2027 23:17:02 GMT; Max-Age=157766400; path=/; domain=.amocrm.ru, Expires=Thu, 19 Nov 1981 08:52:00 GMT, X-XSS-Protection=1; mode=block, Content-Type=application/hal+json}
+	Body: {
+    "_links": {
+        "self": {
+            "href": "https://dlatestov.amocrm.ru/api/v4/leads"
+        }
+    },
+    "_embedded": {
+        "leads": [
+            {
+                "id": 28685247,
+                "request_id": "1583962204",
+                "_links": {
+                    "self": {
+                        "href": "https://dlatestov.amocrm.ru/api/v4/leads/28685247"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+16 Feb 2022 17:17:03,099 main - Connection [id: 0][route: {s}->https://dlatestov.amocrm.ru:443] can be kept alive indefinitely
+16 Feb 2022 17:17:03,099 main - http-outgoing-0: set socket timeout to 0
+16 Feb 2022 17:17:03,099 main - Connection released: [id: 0][route: {s}->https://dlatestov.amocrm.ru:443][total available: 1; route allocated: 1 of 300; total allocated: 1 of 300]
