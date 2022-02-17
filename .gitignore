@@ -12,3 +12,13 @@ gradle.properties
 .project
 .settings/
 target/
+*.classpath
+*.prefs
+*.jar
+*.lst
+*.project
+*.factorypath
+*.original
+.apt_generated
+.sts4-cache
+.springBeans
