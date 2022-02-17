@@ -5,6 +5,7 @@ import com.amocrm.amocrmsdk.objects.base.CustomField;
 import com.amocrm.amocrmsdk.objects.base.FilterValue;
 import com.amocrm.amocrmsdk.serializers.CustomFieldAdapter;
 import com.amocrm.amocrmsdk.serializers.FilterValueAdapter;
+import com.amocrm.amocrmsdk.services.AccountService;
 import com.amocrm.amocrmsdk.services.LeadService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -77,6 +78,8 @@ public class AmoApiClient {
     public String getOAuthEndpoint() {
         return oauthEndpoint;
     }
+
+    public AccountService account() {return  new AccountService(this); }
 
     public LeadService leads() {
         return new LeadService(this);

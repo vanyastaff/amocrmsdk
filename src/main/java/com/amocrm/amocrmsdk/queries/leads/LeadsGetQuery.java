@@ -2,7 +2,7 @@ package com.amocrm.amocrmsdk.queries.leads;
 
 import com.amocrm.amocrmsdk.client.AbstractQueryBuilder;
 import com.amocrm.amocrmsdk.client.AmoApiClient;
-import com.amocrm.amocrmsdk.collections.lead.LeadsCollection;
+import com.amocrm.amocrmsdk.collections.LeadsCollection;
 import com.amocrm.amocrmsdk.filters.LeadsFilter;
 
 import java.util.Arrays;

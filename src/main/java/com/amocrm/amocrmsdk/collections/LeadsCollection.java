@@ -1,4 +1,4 @@
-package com.amocrm.amocrmsdk.collections.lead;
+package com.amocrm.amocrmsdk.collections;
 
 import com.amocrm.amocrmsdk.objects.BaseCollection;
 import com.amocrm.amocrmsdk.objects.lead.Lead;
