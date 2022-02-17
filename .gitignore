@@ -3,6 +3,7 @@ build/
 /.gradle/
 *.class
 *.gpg
+*.log
 gradle/
 gradlew
 gradlew.bat
