@@ -5,6 +5,6 @@ build/
 *.gpg
 gradle/
 gradlew
-target
+target/
 gradlew.bat
 gradle.properties
