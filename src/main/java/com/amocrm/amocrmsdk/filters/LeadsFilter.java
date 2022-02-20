@@ -1,7 +1,7 @@
 package com.amocrm.amocrmsdk.filters;
 
 import com.amocrm.amocrmsdk.client.AbstractFilter;
-import com.amocrm.amocrmsdk.collections.lead.LeadsCollection;
+import com.amocrm.amocrmsdk.collections.LeadsCollection;
 import com.amocrm.amocrmsdk.objects.base.FilterValue;
 import com.amocrm.amocrmsdk.objects.base.filter_values.IntegerArrayFilterValue;
 import com.amocrm.amocrmsdk.objects.base.filter_values.ObjectArrayFilterValue;

@@ -7,6 +7,8 @@ public class ExceptionMapper {
         switch (error.status()) {
             case 401:
                 return new ApiAuthException(error);
+            case 404:
+                return new ApiNotFoundException(error);
             default:
                 return new ApiException(error);
         }

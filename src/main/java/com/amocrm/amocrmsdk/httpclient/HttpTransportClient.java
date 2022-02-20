@@ -38,7 +38,7 @@ public class HttpTransportClient implements TransportClient {
     protected static final Logger LOG = LoggerFactory.getLogger(HttpTransportClient.class);
 
     protected static final String ENCODING = "UTF-8";
-    protected static final String FORM_CONTENT_TYPE = "application/x-www-form-urlencoded";
+    protected static final String FORM_CONTENT_TYPE = "application/json";
     protected static final String CONTENT_TYPE_HEADER = "Content-Type";
     protected static final String USER_AGENT = "Java VK SDK/1.0";
 

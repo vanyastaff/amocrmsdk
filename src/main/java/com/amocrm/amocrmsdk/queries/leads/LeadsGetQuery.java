@@ -91,9 +91,9 @@ public class LeadsGetQuery extends AbstractQueryBuilder<LeadsGetQuery, LeadsColl
      * @param value array data of filter
      * @return a reference to this {@code AbstractQueryBuilder} object to fulfill the "Builder" pattern.
      */
-//    public LeadsGetQuery filter(HashMap value) {
-//        return unsafeParam("filter", new LeadsFilter(value).buildQueryMap());
-//    }
+    public LeadsGetQuery filter(HashMap value) {
+        return unsafeParam("filter", getGson().fromJson(getGson().toJson(value), LeadsFilter.class).buildQueryMap());
+    }
 
     /**
      * Set query "order" parameter

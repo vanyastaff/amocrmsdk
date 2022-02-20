@@ -1,7 +1,7 @@
 package com.amocrm.amocrmsdk;
 
 import com.amocrm.amocrmsdk.client.AmoApiClient;
-import com.amocrm.amocrmsdk.collections.lead.LeadsCollection;
+import com.amocrm.amocrmsdk.collections.LeadsCollection;
 import com.amocrm.amocrmsdk.exceptions.ApiException;
 import com.amocrm.amocrmsdk.exceptions.ClientException;
 import com.amocrm.amocrmsdk.objects.lead.Lead;
